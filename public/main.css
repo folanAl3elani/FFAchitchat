@@ -290,6 +290,8 @@ form > :last-child {
   align-items: center;
   flex-direction: column;
   background-color:#282566;
+  position: relative;
+  z-index: 2;
   
 }
 
@@ -307,7 +309,7 @@ form > :last-child {
     /* margin-top: 6rem; */
     position: fixed;
     bottom: 10px;
-    z-index: -1;
+    z-index: 1;
 }
 
 
